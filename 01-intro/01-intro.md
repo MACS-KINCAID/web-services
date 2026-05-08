@@ -447,7 +447,7 @@ A function consists of the function keyword, followed by:
 - The name of the function
 - A list of parameters to the function, enclosed in parentheses and separated by commas
 - The JavaScript statements that define the function, enclosed in curly braces, { /* … */ }.
-`if (input % 4 == 0) { ... }else{ ... }` 
+`if (input % 2 == 0) { ... }else{ ... }` 
 <!-- end_slide -->
 
 
