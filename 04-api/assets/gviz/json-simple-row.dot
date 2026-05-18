@@ -1,0 +1,23 @@
+digraph G {
+  # dot -Tpng -Gsize=9,15\! -Gdpi=100 json-simple-row.dot -o json-simple-row.png && kitty icat json-simple-row.png
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif"]
+  edge [fontname="Helvetica,Arial,sans-serif"]
+  a0 [shape=none label=<
+ <TABLE border="1" cellspacing="10" cellpadding="10" style="rounded">
+
+
+  <TR>
+  <TD>id</TD>
+  <TD>name</TD>
+  </TR>
+
+  <TR>
+  <TD>1</TD>
+  <TD>Google Pixel 6 Pro</TD>
+  </TR>
+
+
+</TABLE>>];
+
+}
