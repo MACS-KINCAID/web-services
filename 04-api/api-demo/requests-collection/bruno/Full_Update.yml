@@ -1,0 +1,22 @@
+info:
+  name: Full_Update
+  type: http
+  seq: 3
+
+http:
+  method: PUT
+  url: http://localhost:3000/objects/14
+  body:
+    type: json
+    data: |-
+      {
+        "name": "pablito",
+        "data":{"testing":true}
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

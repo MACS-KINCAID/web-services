@@ -1,0 +1,21 @@
+info:
+  name: Partial_Update
+  type: http
+  seq: 4
+
+http:
+  method: PATCH
+  url: http://localhost:3000/objects/14
+  body:
+    type: json
+    data: |-
+      {
+        "name": "pablito2"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
