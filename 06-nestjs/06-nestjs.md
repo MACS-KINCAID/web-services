@@ -73,7 +73,7 @@ How do we run our application?
 👉  Get started with the following commands:
 
 $ cd ex3-nestjs-intro
-$ yarn run start
+$ npm run start
 
                                          
          Thanks for installing Nest 🙏
