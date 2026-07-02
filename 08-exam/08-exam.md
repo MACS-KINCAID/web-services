@@ -286,7 +286,7 @@ npm run start:dev
 <!-- end_slide -->
 
 ## Jupyterhub
-4. En la ruta ~ correr el comando:
+4. En la ruta ~/starter correr el comando:
 ```bash
 ./gradeMe.sh
 ```
